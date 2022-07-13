@@ -38,7 +38,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
 </head>
 
@@ -48,14 +48,16 @@
         <section class="container">
 
             <div class="img-container">
-                <img class="img-container__img" src="#" alt="">
+                <img class="img-container__img" src="./images/mail-send-1.png" alt="Imagen">
             </div>
 
             <form class="formulario" action="#">
                 <div class="formulario__container">
                     <input class="formulario__input" type="email" placeholder="Email" name="correo" required autofocus>
-                    <input class="formulario__input" type="text" placeholder="Asunto" name="asunto" required minlength="10">
-                    <textarea class="formulario__input formulario__input--textarea" name="mensaje"></textarea>
+                    <input class="formulario__input" type="text" placeholder="Asunto" name="asunto" required
+                        minlength="10">
+                    <textarea class="formulario__input formulario__input--textarea" placeholder="Mensaje"
+                        name="mensaje"></textarea>
                 </div>
                 <div class="formulario__container">
                     <input class="formulario__button" type="submit" value="Enviar">
