@@ -43,7 +43,28 @@
 </head>
 
 <body>
+    <main class="main">
 
+        <section class="container">
+
+            <div class="img-container">
+                <img class="img-container__img" src="#" alt="">
+            </div>
+
+            <form class="formulario" action="#">
+                <div class="formulario__container">
+                    <input class="formulario__input" type="email" placeholder="Email" name="correo" required autofocus>
+                    <input class="formulario__input" type="text" placeholder="Asunto" name="asunto" required minlength="10">
+                    <textarea class="formulario__input formulario__input--textarea" name="mensaje"></textarea>
+                </div>
+                <div class="formulario__container">
+                    <input class="formulario__button" type="submit" value="Enviar">
+                </div>
+            </form>
+
+        </section>
+
+    </main>
 </body>
 
 </html>
