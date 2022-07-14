@@ -15,7 +15,7 @@
 }
 
 body {
-    background: var(--blackish);
+    background: var(--egg-yellow);
 }
 
 .main {
@@ -25,7 +25,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--blackish);
+    background: var(--egg-yellow);
 }
 
 .container {
@@ -37,7 +37,6 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background: var(--egg-yellow);
 }
 
 .img-container {
@@ -79,7 +78,7 @@ body {
 .formulario__input--textarea {
     resize: none;
     min-height: 140px;
-    overflow: scroll;
+    /* overflow: auto; */
 }
 
 .formulario__input:focus {
